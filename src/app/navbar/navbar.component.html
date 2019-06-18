@@ -1,5 +1,5 @@
 <!--Navbar-->
-<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark purple lighten-1" [containerInside]="false">
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark purple dark-3" [containerInside]="false">
 
   <!-- Navbar brand -->
   <mdb-navbar-brand>
@@ -24,6 +24,14 @@
     <!-- Links -->
 
     <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item">
+        <form class="form-inline">
+          <input mdbInput type="text" class="form-control mb-2 mr-sm-2" placeholder="Search . . .">
+          <button type="submit" class="btn btn-primary btn-md mt-0" size="sm">
+              <i class="fas fa-search"></i> Search
+          </button>
+      </form>
+      </li>
       <li class="nav-item">
         <a class="nav-link"><i class="fas fa-shopping-cart"></i></a>
       </li>
